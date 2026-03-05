@@ -1,6 +1,8 @@
 # OpenClaw Termux 一键安装脚本
 
-在 Android Termux 环境中快速安装 OpenClaw 及其依赖。
+在 Android Termux 环境中快速安装 [OpenClaw](https://openclaw.ai) 及其依赖。所有命令均已验证可成功执行。
+
+**特性：** 自动确认 Y 无需手动输入 · 独立安装界面 · 进度条显示 · 安装完成后提示初始化命令
 
 ## 使用方法
 
@@ -54,7 +56,7 @@ curl -fsSL https://raw.fastgit.org/wuxiao00j/openclaw-installer/main/install.sh 
 
 ## 安装完成后
 
-执行以下命令开始使用 OpenClaw：
+脚本会显示独立完成界面，请执行以下命令进行 **OpenClaw 初始化**：
 
 ```bash
 openclaw onboard
